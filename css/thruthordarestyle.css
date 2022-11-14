@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Nunito-medium;
+    src: url(../fonts/Nunito-Medium.ttf);
+}
+
+body{
+    font-family: Nunito-medium;
+    background-color: #2C3639;
+    color: #DCD7C9;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    text-align: center;
+    background-color: #3F4E4F;
+}
+
+.buttons{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 65%;
+    text-align: center;
+}
+
+.thruthB{
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: #DCD7C9;
+    color: #2C3639;
+    font-weight: 1000;
+    font-size: 17px;
+    transition: 500ms;
+}
+.thruthB:hover{
+    background-color: #2C3639;
+    color: #DCD7C9;
+}
+.thruthB:active{
+    background-color: #DCD7C9;
+    color: #2C3639;
+}
+
+.question{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+}
+
+.navbar{
+    width: 300px;
+    height: 21px;
+    background-color: #DCD7C9;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.wyrB{
+    border: none;
+    background-color: transparent;
+    color: #2C3639;
+}
